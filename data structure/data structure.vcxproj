@@ -145,17 +145,44 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DSComm.h" />
+    <ClInclude Include="linear_list_lk.h" />
+    <ClInclude Include="linear_list_sq.h" />
+    <ClInclude Include="queue_lk.h" />
+    <ClInclude Include="queue_sq.h" />
+    <ClInclude Include="stack_lk.h" />
+    <ClInclude Include="stack_sq.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Test_linear_list_lk.h" />
+    <ClInclude Include="Test_linear_list_sq.h" />
+    <ClInclude Include="Test_queue_lk.h" />
+    <ClInclude Include="Test_queue_sq.h" />
+    <ClInclude Include="Test_stack_lk.h" />
+    <ClInclude Include="Test_stack_sq.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="data structure.cpp" />
+    <ClCompile Include="linear_list_lk.cpp" />
+    <ClCompile Include="linear_list_sq.cpp" />
+    <ClCompile Include="queue_lk.cpp" />
+    <ClCompile Include="queue_sq.cpp" />
+    <ClCompile Include="stack_lk.cpp" />
+    <ClCompile Include="stack_sq.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Test_linear_list_lk.cpp" />
+    <ClCompile Include="Test_linear_list_sq.cpp" />
+    <ClCompile Include="Test_queue_lk.cpp" />
+    <ClCompile Include="Test_queue_sq.cpp" />
+    <ClCompile Include="Test_stack_lk.cpp" />
+    <ClCompile Include="Test_stack_sq.cpp" />
+    <ClCompile Include="tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

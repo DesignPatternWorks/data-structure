@@ -24,12 +24,93 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DSComm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_list_lk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_list_sq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue_lk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue_sq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_lk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack_sq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_linear_list_lk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_linear_list_sq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_queue_lk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_queue_sq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_stack_lk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_stack_sq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="data structure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_stack_sq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_stack_lk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_queue_sq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_queue_lk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_linear_list_sq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_linear_list_lk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_sq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack_lk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_sq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queue_lk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_list_sq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linear_list_lk.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
