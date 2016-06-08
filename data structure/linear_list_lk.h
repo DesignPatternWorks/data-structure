@@ -22,7 +22,7 @@ typedef struct LNode
 {
 	ElemType   data;
 	LNode      *pNext;  // 只有一个方向的指针域
-}LNode;            // tag 和类型名保持一致LNode
+}LNode, *LList;            // tag 和类型名保持一致LNode
 
 class LkLinearList
 {

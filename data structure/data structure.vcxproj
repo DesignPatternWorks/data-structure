@@ -160,6 +160,7 @@
     <ClInclude Include="Test_queue_sq.h" />
     <ClInclude Include="Test_stack_lk.h" />
     <ClInclude Include="Test_stack_sq.h" />
+    <ClInclude Include="Test_tree.h" />
     <ClInclude Include="tree.h" />
   </ItemGroup>
   <ItemGroup>
@@ -182,6 +183,7 @@
     <ClCompile Include="Test_queue_sq.cpp" />
     <ClCompile Include="Test_stack_lk.cpp" />
     <ClCompile Include="Test_stack_sq.cpp" />
+    <ClCompile Include="Test_tree.cpp" />
     <ClCompile Include="tree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

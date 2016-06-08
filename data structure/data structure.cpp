@@ -8,6 +8,7 @@
 #include "Test_queue_lk.h"
 #include "Test_linear_list_sq.h"
 #include "Test_linear_list_lk.h"
+#include "Test_tree.h"
 
 int main()
 {
@@ -17,6 +18,7 @@ int main()
 	//testStackLk();
 	//testQueueSq();
 	//testQueueLk();
+	testTree();
     return 0;
 }
 
